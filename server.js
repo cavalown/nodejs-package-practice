@@ -1,0 +1,13 @@
+/**
+ * 啟動一個最間單的koa server
+ */
+
+ const Koa = require('koa');
+ 
+ const app = new Koa();
+ 
+ app.use(async ctx=>{
+    ctx.body = 'Hello Koa!';
+});
+ 
+ app.listen(3000);
