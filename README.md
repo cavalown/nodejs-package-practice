@@ -1,6 +1,9 @@
 # nodejs-package-practice
-Node.js的後端相關操作，以branch作為模組練習的區隔。
+使用winston對各種狀態(example: error...)進行紀錄與管理。
 
-- `koa-server:`  使用koa啟動server，建立rest api。
-- `file-operation:` 對檔案進行各種操作。包含讀取、編輯、專換...等。
-- `log-manage:` 建立各種log(error, info ...)的管理。
+[winston](https://github.com/winstonjs/winston)
+
+## 安裝
+```bash
+npm i winston
+```
