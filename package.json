@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-package-practice",
+  "version": "1.0.0",
+  "description": "使用node.js操作檔案，包含讀取、編輯、轉換...等等。 ## 讀取&操作檔案 使用`fs-extra`，完整繼承了之前`fs`。 ```bash npm install fs-extra ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cavalown/nodejs-package-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cavalown/nodejs-package-practice/issues"
+  },
+  "homepage": "https://github.com/cavalown/nodejs-package-practice#readme",
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "lodash": "^4.17.21"
+  }
+}
