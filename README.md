@@ -1,6 +1,25 @@
 # nodejs-package-practice
-Node.js的後端相關操作，以branch作為模組練習的區隔。
+資料庫服務啟動&操作(CRUD)。
 
-- `koa-server:`  使用koa啟動server，建立rest api。
-- `file-operation:` 對檔案進行各種操作。包含讀取、編輯、專換...等。
-- `log-manage:` 建立各種log(error, info ...)的管理。
+## ArangoDB
+[官網連結](https://www.arangodb.com/)
+[官方教學](https://www.arangodb.com/2020/03/arangodb-in-10-minutes-node-js/)
+[npm教學](https://www.npmjs.com/package/arangojs)
+#### Web Interface
+`http://host:8529`
+若是在本地端啟動的就是`http://localhost:8529`
+#### 安裝
+```bash=
+npm i arangojs
+```
+
+---
+## MongoDB
+
+---
+
+## Postgres
+
+---
+
+## Redis

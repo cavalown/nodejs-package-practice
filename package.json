@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-package-practice",
+  "version": "1.0.0",
+  "description": "Node.js的後端相關操作，以branch作為模組練習的區隔。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cavalown/nodejs-package-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cavalown/nodejs-package-practice/issues"
+  },
+  "homepage": "https://github.com/cavalown/nodejs-package-practice#readme",
+  "dependencies": {
+    "arangojs": "^7.8.0",
+    "eslint": "^8.17.0",
+    "lodash": "^4.17.21"
+  }
+}
