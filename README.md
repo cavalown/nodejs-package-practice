@@ -15,6 +15,10 @@ npm i arangojs
 
 ---
 ## MongoDB
+#### 安裝
+```bash=
+npm i mongodb
+```
 
 ---
 
